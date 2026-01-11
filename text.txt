@@ -1,0 +1,189 @@
+# 📓 HTML Basics Notebook
+
+*A simple, clean, and easy-to-revise guide*
+
+---
+
+## 1. What is HTML?
+
+HTML (HyperText Markup Language) is used to **create the structure and content of web pages**. Everything you see on a webpage—text, headings, images, links—comes from HTML.
+
+> **Remember:** HTML is the skeleton of a website.
+
+---
+
+## 2. How HTML Works
+
+HTML uses **elements**.
+
+An element has:
+
+* **Opening tag** → `<p>`
+* **Content** → `Hello`
+* **Closing tag** → `</p>`
+
+Example:
+
+```html
+<p>Hello</p>
+```
+
+---
+
+## 3. Void Elements
+
+Some elements **do not have closing tags and cannot contain content**. These are called **void elements**.
+
+Examples:
+
+```html
+<img>
+<br>
+<hr>
+<input>
+```
+
+You may also see:
+
+```html
+<img />
+```
+
+Both are valid in HTML5.
+
+> **Key rule:** Void elements only have a start tag.
+
+---
+
+## 4. What are Attributes?
+
+An **attribute** gives extra information about an element and controls **how it behaves or looks**.
+
+**Syntax:**
+
+```html
+<element attribute="value"></element>
+```
+
+> **Easy idea:** Element = what it is, Attribute = how it works
+
+---
+
+## 5. Common Attributes
+
+### a) Links – `href` and `target`
+
+```html
+<a href="https://example.com" target="_blank">Visit</a>
+```
+
+* `href` → where the link goes (required)
+* `target="_blank"` → opens in new tab
+
+---
+
+### b) Images – `src` and `alt`
+
+```html
+<img src="cat.jpg" alt="A sleeping cat">
+```
+
+* `src` → image location (required)
+* `alt` → text description (for accessibility)
+
+---
+
+## 6. Boolean Attributes
+
+Boolean attributes **do not need values**.
+
+If present → **true**
+If absent → **false**
+
+Examples:
+
+```html
+<input type="checkbox" checked>
+<input type="text" disabled>
+<input type="text" required>
+```
+
+Common boolean attributes:
+
+* `checked`
+* `disabled`
+* `readonly`
+* `required`
+
+---
+
+## 7. Input and the `type` Attribute
+
+The `type` attribute tells the browser what kind of input it is.
+
+```html
+<input type="text">
+<input type="checkbox">
+<input type="email">
+```
+
+---
+
+## 8. HTML, CSS & JavaScript – The Big Picture
+
+* **HTML** → Structure & content
+* **CSS** → Design & styling
+* **JavaScript** → Interactivity & logic
+
+🏠 **House Analogy**
+
+* HTML = bricks & walls
+* CSS = paint & decoration
+* JavaScript = electricity & water
+
+---
+
+## 9. Accessibility (Important)
+
+Accessibility means making websites usable for **everyone**, including people with disabilities.
+
+Examples:
+
+* `alt` text for images
+* `required` for forms
+* `readonly` for inputs
+
+---
+
+## 10. Quick Memory Section
+
+### One-Line Rules
+
+* **HTML builds it**
+* **CSS styles it**
+* **JavaScript makes it move**
+
+### Super Short Notes
+
+* Element = structure
+* Attribute = settings
+* Void element = no closing tag
+* Boolean attribute = on/off
+
+---
+
+## 11. Mini Cheat Sheet
+
+| Thing      | Meaning              |
+| ---------- | -------------------- |
+| `<p></p>`  | Paragraph element    |
+| `<img>`    | Image (void element) |
+| `href`     | Link destination     |
+| `src`      | Image source         |
+| `alt`      | Image description    |
+| `checked`  | Checkbox selected    |
+| `disabled` | Input not usable     |
+
+---
+
+📌 **Tip:** If you remember the structure → elements → attributes → void elements → HTML/CSS/JS roles, you understand the foundation of HTML.
